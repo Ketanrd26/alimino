@@ -37,6 +37,10 @@
           aspect-ratio: 1;
           background-color: red;
           border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
         }
 
         .icons {
@@ -122,6 +126,13 @@
   .home-page-cont {
     .box {
       width: 100% !important;
+
+      .social-icons{
+        // justify-content: flex-start;
+        // align-items: flex-start;
+        flex-direction: column !important;
+        gap: var(--unit);
+      }
       .tag {
         width: 100%;
         h4 {

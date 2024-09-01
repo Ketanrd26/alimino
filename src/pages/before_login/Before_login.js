@@ -11,7 +11,9 @@ const Before_login = () => {
         <div className="home-page-cont cont">
           <div className="box">
             <div className="social-icons">
-              <div className="logo"></div>
+              <div className="logo">
+                logo
+              </div>
               <div className="icons">
                 <span>
                   <FaLinkedinIn />
